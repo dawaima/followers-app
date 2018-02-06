@@ -9,4 +9,3 @@ import { FavoriteChangedEventArgs } from './favorite/favorite.component';
 export class AppComponent {
   
 }
- 
