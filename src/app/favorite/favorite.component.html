@@ -1,0 +1,16 @@
+
+<!-- 
+<span 
+class="glyphicon glyphicon-star glyphicon-star-empty"
+[class.glyphicon-star]="isSelected"
+[class.glyphicon-star-empty]="!isSelected"
+(click)="onClick()"
+>
+</span>
+ -->
+ <span (click)="onClick()" >
+    <i class="fa fa-star-o" aria-hidden="true"
+    [ngClass]="{'fa-star': isSelected,'fa-star-o': !isSelected}"
+    style="font-size: 40px"></i>
+ </span>
+
